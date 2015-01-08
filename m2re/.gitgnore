@@ -1,0 +1,13 @@
+.sass-cache
+node_modules
+*.log
+*.pot
+*.pyc
+content/components
+utils/db
+local_settings.py
+static/
+media/
+*.backup
+*.bak
+content/build
