@@ -1,7 +1,7 @@
 # Django settings for m2re project.
 import os
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -131,6 +131,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'profiles',
 )
 
 # A sample logging configuration. The only tangible logging
