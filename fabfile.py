@@ -11,11 +11,11 @@ sys.path.insert(0, os.sep.join(os.path.abspath(__file__).split(os.sep)[:-2]))
 
 env.project_name = 'm2re'
 #env.hosts = ['host1']
-# env.user = 'm2re'
-# env.password = 'm2re_2015'
+env.user = 'm2re'
+env.password = 'm2re_2015'
 
-# env.date = time.strftime('%Y%m%d%H%M%S')
-# os.environ['DJANGO_SETTINGS_MODULE'] = '%(project_name)s.settings' % env
+env.date = time.strftime('%Y%m%d%H%M%S')
+os.environ['DJANGO_SETTINGS_MODULE'] = '%(project_name)s.settings' % env
 
 # env.db_name = settings.DATABASES['default']['NAME']
 # env.db_user = settings.DATABASES['default']['USER']

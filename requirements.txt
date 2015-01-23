@@ -3,7 +3,6 @@ Fabric==1.10.1
 argparse==1.2.1
 dj-database-url==0.3.0
 dj-static==0.0.6
--e git://github.com/jonthdiaz/django-decorators.git@f4eeac47430cc8ce791e86077bd38d1508e505b0#egg=django_decorators-master
 django-toolbelt==0.0.1
 ecdsa==0.11
 gunicorn==19.1.1
